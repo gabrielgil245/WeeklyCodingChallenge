@@ -1,4 +1,4 @@
-package com.revature.lookandsay;
+package com.revature.december062021;
 
 public class LookAndSay {
     public static Long lookAndSay(Long arr) {
@@ -20,5 +20,12 @@ public class LookAndSay {
             }
         }
         return Long.valueOf(result);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(LookAndSay.lookAndSay(1213200012171979L)); // 23002799999999
+        System.out.println(LookAndSay.lookAndSay(95L)); // 555555555
+        System.out.println(LookAndSay.lookAndSay(120520L)); // 200
+        System.out.println(LookAndSay.lookAndSay(231L)); // -1
     }
 }
